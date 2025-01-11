@@ -1,0 +1,42 @@
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.tableThead {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.theadTitle {
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.row:nth-child(2n) {
+     background-color: #c5c6d0;
+}
+
+.item {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.type {
+    padding: 4px 0 4px 30px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.type::first-letter {
+    text-transform: capitalize;
+    
+}

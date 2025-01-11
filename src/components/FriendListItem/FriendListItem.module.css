@@ -1,0 +1,23 @@
+.itemWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 8px 4px;
+}
+
+.image {
+    margin-bottom: 10px;
+}
+
+.status {
+font-size: 12px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}

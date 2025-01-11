@@ -4,12 +4,10 @@ export default function Profile({ name, tag, location, image, stats: { followers
 return (
     <div className={css.wrapper}>
         <div className={css.info}>
-           <div className={css.circle}>
              <img className={css.img}
              src={image}
              alt="User avatar"
              />
-           </div>
            <p className={css.title}>{name}</p>
            <p className={css.text}>@{tag}</p>
            <p className={css.text}>{location}</p>
